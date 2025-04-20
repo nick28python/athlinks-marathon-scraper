@@ -6,9 +6,10 @@ import csv
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
-PROXIES = {
-    "http": "http://40e59b7f5b9f4ca58320__cr.in:f4ff6813e5734d78@gw.dataimpulse.com:823",
-    "https": "http://40e59b7f5b9f4ca58320__cr.in:f4ff6813e5734d78@gw.dataimpulse.com:823"
+
+proxies = {
+    "http": "http://your_proxy_here",
+    "https": "http://your_proxy_here"
 }
 
 URL = "https://www.worldfootball.net/all_matches/eng-premier-league-2023-2024/"
