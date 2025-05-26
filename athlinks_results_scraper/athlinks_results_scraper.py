@@ -24,7 +24,7 @@ def fetch_html():
 
 def parse_matches(html):
     soup = BeautifulSoup(html, 'html.parser')
-    table = soup.find('table', class_='standard_tabelle')
+    table = soup.find('table', class_='__')
     data = []
 
     if not table:
